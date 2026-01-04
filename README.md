@@ -43,6 +43,7 @@ It is the business-level data representation, structured to support analytical a
 gold.fact_sales: The transaction hub with Foreign Keys to dimensions.
 - **Purpose:** Stores transactional sales data for analytical purposes.
 - **Columns:**
+```
 | Column Name     | Data Type     | Description                                                                                   |
 |-----------------|---------------|-----------------------------------------------------------------------------------------------|
 | order_number    | NVARCHAR(50)  | A unique alphanumeric identifier for each sales order (e.g., 'SO54496').                      |
@@ -54,12 +55,13 @@ gold.fact_sales: The transaction hub with Foreign Keys to dimensions.
 | sales_amount    | INT           | The total monetary value of the sale for the line item, in whole currency units (e.g., 25).   |
 | quantity        | INT           | The number of units of the product ordered for the line item (e.g., 1).                       |
 | price           | INT           | The price per unit of the product for the line item, in whole currency units (e.g., 25).      |
-
+```
 
 
 gold.dim_customers: A comprehensive dimension including marital status, gender, and geographic attributes.
 - **Purpose:** Stores customer details enriched with demographic and geographic data.
 - **Columns:**
+```
 | Column Name      | Data Type     | Description                                                                                   |
 |------------------|---------------|-----------------------------------------------------------------------------------------------|
 | customer_key     | INT           | Surrogate key uniquely identifying each customer record in the dimension table.               |
@@ -72,12 +74,13 @@ gold.dim_customers: A comprehensive dimension including marital status, gender, 
 | gender           | NVARCHAR(50)  | The gender of the customer (e.g., 'Male', 'Female', 'n/a').                                  |
 | birthdate        | DATE          | The date of birth of the customer, formatted as YYYY-MM-DD (e.g., 1971-10-06).               |
 | create_date      | DATE          | The date and time when the customer record was created in the system|
-
+```
 
 
 gold.dim_products: A structured hierarchy including category, subcategory, and maintenance status.
 - **Purpose:** Provides information about the products and their attributes.
 - **Columns:**
+```
 | Column Name         | Data Type     | Description                                                                                   |
 |---------------------|---------------|-----------------------------------------------------------------------------------------------|
 | product_key         | INT           | Surrogate key uniquely identifying each product record in the product dimension table.         |
@@ -91,7 +94,7 @@ gold.dim_products: A structured hierarchy including category, subcategory, and m
 | cost                | INT           | The cost or base price of the product, measured in monetary units.                            |
 | product_line        | NVARCHAR(50)  | The specific product line or series to which the product belongs (e.g., Road, Mountain).      |
 | start_date          | DATE          | The date when the product became available for sale or use, stored in|
-
+```
 
 📉 5. Comprehensive Data Analytics Process
 The project transitions from engineering to insights through a two-phase analytical roadmap.
@@ -205,3 +208,4 @@ Methodology & Project Management
 Lifecycle: End-to-End ETL/ELT best practices.
 Strategy: User Story Mapping to align technical development with business stakeholder requirements.
 Documentation: Data Cataloging and logic mapping for the Gold Reporting Layer.
+
