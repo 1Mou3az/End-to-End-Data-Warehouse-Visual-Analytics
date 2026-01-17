@@ -162,5 +162,3 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 * **Documentation:** Data Cataloging and Logic Mapping.
 
 ---
-**📫 Let's Connect!**
-*Created by [Your Name]*
