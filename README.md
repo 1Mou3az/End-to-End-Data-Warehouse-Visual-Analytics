@@ -142,10 +142,8 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 * **👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
 
 ## 📊 Live Interactive Dashboard
-[![Click to View Live Dashboard](https://github.com/user-attachments/assets/your-image-id-here)](https://public.tableau.com/views/SalesCustomersDashboard_17686944194060/CustomersDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[[Click to View Live Dashboard](https://github.com/user-attachments/assets/your-image-id-here)](https://public.tableau.com/views/SalesCustomersDashboard_17686944194060/CustomersDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-> **Note:** Click the image above to explore the interactive version on Tableau Public.
-> 
 ---
 
 ## 🛠️ Tech Stack & Technical Proficiencies
@@ -167,4 +165,5 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 * **Documentation:** Data Cataloging and Logic Mapping.
 
 ---
+
 
