@@ -293,3 +293,6 @@ The Gold Layer is the business-level data representation, structured to support 
 | price           | INT           | The price per unit of the product for the line item, in whole currency units (e.g., 25).      |
 ---
 
+# Phase II: Exploratory Data Analysis (EDA) And Advanced Data Analytics
+
+
