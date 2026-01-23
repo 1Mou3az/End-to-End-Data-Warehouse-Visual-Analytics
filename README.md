@@ -298,7 +298,7 @@ The Gold Layer is the business-level data representation, structured to support 
 ## Comprehensive Data Analytics Process
 The project transitions from engineering to insights through a two-phase analytical roadmap.
 
-### **Phase I: Exploratory Data Analysis (EDA)**
+### **Exploratory Data Analysis (EDA)**
 1.  **Database Exploration:** Assessing the overall structure and volume.
 2.  **Dimensions Exploration:** Validating attribute distributions.
 3.  **Date Exploration:** Analyzing business history.
@@ -306,14 +306,14 @@ The project transitions from engineering to insights through a two-phase analyti
 5.  **Magnitude:** Visualizing volume and scale.
 6.  **Ranking:** Identifying Top N vs. Bottom N performers.
 
-### **Phase II: Advanced Analytics**
+### **Advanced Analytics**
 7.  **Change-Over-Time:** Detailed trend analysis and growth tracking.
 8.  **Cumulative Analysis:** Running totals and Year-to-Date (YTD) performance.
 9.  **Performance Analysis:** Benchmarking actual performance against business targets.
 10. **Part-to-Whole (Proportional):** Analyzing category contributions to the total business.
 11. **Data Segmentation:** Clustering data for targeted marketing and operational focus.
 
-### **Phase III: SQL Reporting Layer**
+### **SQL Reporting Layer**
 Transforming storage data into a high-level analytical suite via SQL layers.
 High-performance reporting views serving as the "Single Version of Truth."
 
@@ -325,5 +325,6 @@ High-performance reporting views serving as the "Single Version of Truth."
 13.  **Customer Analytical Report (`gold.report_customers`)**
     * **Consolidation:** Integrates CRM profiles with ERP geographic and demographic data.
     * **Intelligence:** Embedded logic for Age Grouping and Customer Lifetime Value (CLV).
+
 
 
