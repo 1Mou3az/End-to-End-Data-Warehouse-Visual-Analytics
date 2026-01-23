@@ -316,7 +316,7 @@ The project transitions from engineering to insights through a two-phase analyti
 ### **SQL Reporting Layer**
 Transforming storage data into a high-level analytical suite via SQL layers.
 
-High-performance reporting views serving as the "Single Version of Truth."
+High-performance reporting views serving as the "Single Version of Truth.
 
 12.  **Product Analytical Report (`gold.report_products`)**
     * **Core Consolidation:** Merges CRM product details with ERP categories/costs.
@@ -327,6 +327,38 @@ High-performance reporting views serving as the "Single Version of Truth."
     * **Consolidation:** Integrates CRM profiles with ERP geographic and demographic data.
     * **Intelligence:** Embedded logic for Age Grouping and Customer Lifetime Value (CLV).
 
+# Phase III: Data Visualization
+
+## **Tableau Dashboard Development**
+Professional design lifecycle followed: **Analyze Requirements → Build Data Source → Build Charts → Build Dashboards.**
+
+* **💰 Sales Dashboard:** Financial performance, YoY comparisons, Max/Min indicators, and Weekly Trends.
+* **👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
+
+### 📊 Live Interactive Dashboard
+🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+📄 [View PDF Dashboard](Visualization/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
+---
+
+## 🛠️ Tech Stack & Technical Proficiencies
+
+### **Database Engineering (SQL Server)**
+* **Architecture:** Medallion Framework (Bronze, Silver, Gold).
+* **Object Development:** Stored Procedures, SQL Views, DDL/DML.
+* **Modeling:** Star Schema, SCD Type 1, Batch Processing.
+* **Cleaning:** Regex parsing, deduplication, and outlier handling.
+
+### **Business Intelligence & Visualization (Tableau)**
+* **Lifecycle:** Requirements → Data Optimization → Chart Engineering → UI Layout.
+* **Analytics:** YoY Growth, Parameter-Driven Logic, Reference Lines.
+* **UI/UX:** Nested Containers, Customized Tooltips, Navigation Buttons.
+
+### **Methodology**
+* **Lifecycle:** End-to-End ETL/ELT.
+* **Strategy:** User Story Mapping.
+* **Documentation:** Data Cataloging and Logic Mapping.
+---
 
 
 
