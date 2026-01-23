@@ -143,7 +143,8 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 
 ## 📊 Live Interactive Dashboard
 [Click to View Live Dashboard](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
-📄 [Download PDF Dashboard](Visualization/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
+
+📄 [View PDF Dashboard](Visualization/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
 ---
 
 ## 🛠️ Tech Stack & Technical Proficiencies
@@ -165,6 +166,7 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 * **Documentation:** Data Cataloging and Logic Mapping.
 
 ---
+
 
 
 
