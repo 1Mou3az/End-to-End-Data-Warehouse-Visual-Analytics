@@ -142,7 +142,7 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 * **👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
 
 ## 📊 Live Interactive Dashboard
-[Click to View Live Dashboard](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 📄 [View PDF Dashboard](Visualization/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
 ---
@@ -166,6 +166,7 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 * **Documentation:** Data Cataloging and Logic Mapping.
 
 ---
+
 
 
 
