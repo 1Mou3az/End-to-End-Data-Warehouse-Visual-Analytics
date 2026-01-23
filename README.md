@@ -315,6 +315,7 @@ The project transitions from engineering to insights through a two-phase analyti
 
 ### **SQL Reporting Layer**
 Transforming storage data into a high-level analytical suite via SQL layers.
+
 High-performance reporting views serving as the "Single Version of Truth."
 
 12.  **Product Analytical Report (`gold.report_products`)**
@@ -325,6 +326,7 @@ High-performance reporting views serving as the "Single Version of Truth."
 13.  **Customer Analytical Report (`gold.report_customers`)**
     * **Consolidation:** Integrates CRM profiles with ERP geographic and demographic data.
     * **Intelligence:** Embedded logic for Age Grouping and Customer Lifetime Value (CLV).
+
 
 
 
