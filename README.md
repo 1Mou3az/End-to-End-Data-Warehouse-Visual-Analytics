@@ -94,7 +94,7 @@ It ensures a clean setup for the ETL process by dropping any existing database a
 
 ---
 
-## C. Layer Construction & ETL Implementation 🔄
+## C. Layer Construction & ETL Implementation 🤖
 
 The data pipeline is implemented in three clearly defined stages.
 <p align="center">
@@ -317,13 +317,13 @@ The project transitions from engineering to insights through a two-phase analyti
 Transforming storage data into a high-level analytical suite via SQL layers.
 
 High-performance reporting views serving as the "Single Version of Truth.
-
-12.  **Product Analytical Report (`gold.report_products`)**
+ 
+12.  **Product Analytical Report (`gold.report_products`)** 📦
     * **Core Consolidation:** Merges CRM product details with ERP categories/costs.
     * **Dynamic Segmentation:** Automatically categorizes products into High, Mid, or Low Performers.
     * **KPI Engineering:** Tracks Market Reach, Sales Volume, Lifespan Analysis, Recency, AOR, and Pricing Accuracy.
 
-13.  **Customer Analytical Report (`gold.report_customers`)**
+13.  **Customer Analytical Report (`gold.report_customers`)** 👥
     * **Consolidation:** Integrates CRM profiles with ERP geographic and demographic data.
     * **Intelligence:** Embedded logic for Age Grouping and Customer Lifetime Value (CLV).
 
@@ -385,10 +385,11 @@ I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI rep
   </span>
 </p>
 
-###  Live Interactive Dashboard 📊
+###  Live Interactive Dashboard 🚀
 🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) 📄 [View PDF Dashboard](Visualization/Tableau/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
 
 ---
+
 
 
 
