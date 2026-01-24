@@ -331,38 +331,48 @@ High-performance reporting views serving as the "Single Version of Truth.
 
 ## **Tableau Dashboard Development**
 Professional design lifecycle followed:
-
 **Analyze Requirements → Build Data Source → Build Charts → Build Dashboards.**
+<p align="center">
+  <img src="Visualization/design lifecycle.png" alt="Design" width="700"/>
+</p>
 
 * **💰 Sales Dashboard:** Financial performance, YoY comparisons, Max/Min indicators, and Weekly Trends.
 * **👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
 
+## 📊 Project Overview
+Developed a comprehensive Business Intelligence solution in Tableau to analyze sales performance, customer distribution, and product profitability. The project focuses on **Year-over-Year (YoY) comparisons**, enabling stakeholders to identify trends, outliers, and high-value customer segments through a highly interactive UI.
+---
+## 🛠️ Technical Implementation & Calculated Fields
+
+### 1. Dynamic Time-Series Logic (YoY)
+I implemented a robust framework to compare the **Current Year (CY)** against the **Previous Year (PY)** based on a user-selected parameter.
+* **CY & PY Metrics**: Created dynamic measures like `CY Sales`, `PY Sales`, `CY Quantities`, and `PY Quantities` using conditional logic tied to the `Select Year` parameter.
+* **Variance Calculations**: Developed fields to calculate growth percentages, such as:
+  * `% Diff Sales`: `(SUM([CY Sales]) - SUM([PY Sales])) / SUM([PY Sales])`.
+  * `% Diff Quantities`: tracking volume shifts across fiscal periods.
+  * `% Diff Cost per Product`: analyzing margin fluctuations.
+
+### 2. Advanced Performance Indicators (KPIs)
+To provide instant insights, I designed a KPI system with automated visual cues:
+* **KPI Logic Fields**: Created `KPI Sales Avg`, `KPI Prices Avg`, and `KPI Quantity Avg`. These fields use Boolean or String logic to trigger color-coded indicators (e.g., Up/Down arrows) based on performance against targets or previous years.
+* **Outlier Detection**: Implemented `Min/Max` calculated fields for Sales, Orders, and Prices. This automatically highlights the **Highest Month (Blue)** and **Lowest Month (Orange)** on trend lines to pinpoint seasonality.
+
+### 3. Deep Customer Analytics
+Beyond basic reporting, the dashboard segments the customer base:
+* **Customer Distribution**: Built a distribution model based on the `Nr of Orders per Customers` to visualize loyalty.
+* **Sales per Customer**: A calculated measure (`CY Sales per Customer`) used to evaluate the average lifetime value (LTV) for the current period.
+* **Top-N Ranking**: Created a ranked table displaying the Top 10 Customers by sales, including their `Last Order` date and total quantities.
+
+### 4. Level of Detail (LOD) Expressions
+I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI reporting regardless of the visualization's dimensions:
+**Total Sales Preservation**: Implemented `{ FIXED [Order Date (Year)] : SUM([Sales]) }` to maintain the total annual sales figure.This prevents the total from being incorrectly averaged or sliced when broken down by months or categories in the trend lines.
+
+### 5. Interactive User Experience (UX)
+* **Custom Tooltip Visualizations**: Designed advanced tooltips that show a mini-report when hovering over data points, displaying the exact $ variance and % difference between 2012 and 2013.
+* **Collapsible Filter Menu**: Utilized layout containers and "Show/Hide" button logic to create a clean "Filters" sidebar (Category, Subcategory, Product Line, and Location).
+* **Global Parameters**: Integrated a `Select Year` parameter that globally updates all YoY calculations across multiple dashboard tabs (Sales, Customers, and Products).
+---
+
 ###  Live Interactive Dashboard 📊
 🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) 📄 [View PDF Dashboard](Visualization/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
 ---
-
-# 🛠️ Tech Stack & Technical Proficiencies
-
-### **Database Engineering (SQL Server)**
-* **Architecture:** Medallion Framework (Bronze, Silver, Gold).
-* **Object Development:** Stored Procedures, SQL Views, DDL/DML.
-* **Modeling:** Star Schema, SCD Type 1, Batch Processing.
-* **Cleaning:** Regex parsing, deduplication, and outlier handling.
-
-### **Business Intelligence & Visualization (Tableau)**
-* **Lifecycle:** Requirements → Data Optimization → Chart Engineering → UI Layout.
-* **Analytics:** YoY Growth, Parameter-Driven Logic, Reference Lines.
-* **UI/UX:** Nested Containers, Customized Tooltips, Navigation Buttons.
-
-### **Methodology**
-* **Lifecycle:** End-to-End ETL/ELT.
-* **Strategy:** User Story Mapping.
-* **Documentation:** Data Cataloging and Logic Mapping.
----
-
-
-
-
-
-
-
