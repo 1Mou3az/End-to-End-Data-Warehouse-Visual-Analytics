@@ -336,11 +336,11 @@ Professional design lifecycle followed:
   <img src="Visualization/design lifecycle.png" alt="Design" width="700"/>
 </p>
 
-* **💰 Sales Dashboard:** Financial performance, YoY comparisons, Max/Min indicators, and Weekly Trends.
-* **👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
+**💰 Sales Dashboard:** Financial performance, YoY comparisons, Max/Min indicators, and Weekly Trends.
+**👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
 
 ## 📊 Project Overview
-Developed a comprehensive Business Intelligence solution in Tableau to analyze sales performance, customer distribution, and product profitability. The project focuses on **Year-over-Year (YoY) comparisons**, enabling stakeholders to identify trends, outliers, and high-value customer segments through a highly interactive UI.
+## Developed a comprehensive Business Intelligence solution in Tableau to analyze sales performance, customer distribution, and product profitability. The project focuses on **Year-over-Year (YoY) comparisons**, enabling stakeholders to identify trends, outliers, and high-value customer segments through a highly interactive UI.
 ---
 ## 🛠️ Technical Implementation & Calculated Fields
 
@@ -374,5 +374,6 @@ I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI rep
 ---
 
 ###  Live Interactive Dashboard 📊
-🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) 📄 [View PDF Dashboard](Visualization/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
+🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) 📄 [View PDF Dashboard](Visualization/Tableau/Sales & Customers & Products Dashboard.pdf)
 ---
+
