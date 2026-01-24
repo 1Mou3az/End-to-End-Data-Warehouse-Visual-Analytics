@@ -327,6 +327,7 @@ High-performance reporting views serving as the "Single Version of Truth.
     * **Consolidation:** Integrates CRM profiles with ERP geographic and demographic data.
     * **Intelligence:** Embedded logic for Age Grouping and Customer Lifetime Value (CLV).
 
+---
 # Phase III: Data Visualization
 
 ## **Tableau Dashboard Development**
@@ -372,6 +373,7 @@ I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI rep
   
 ##
 **💰 Sales Dashboard:** Financial performance, YoY comparisons, Max/Min indicators, and Weekly Trends.
+
 **👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
 
 <p align="center">
@@ -387,3 +389,4 @@ I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI rep
 🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) 📄 [View PDF Dashboard](Visualization/Tableau/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
 
 ---
+
