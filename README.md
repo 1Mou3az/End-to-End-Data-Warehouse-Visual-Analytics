@@ -313,7 +313,7 @@ The project transitions from engineering to insights through a two-phase analyti
 10. **Part-to-Whole (Proportional):** Analyzing category contributions to the total business.
 11. **Data Segmentation:** Clustering data for targeted marketing and operational focus.
 
-### **🗄️SQL Reporting Layer**
+## SQL Reporting Layer 🗄️
 Transforming storage data into a high-level analytical suite via SQL layers.
 
 High-performance reporting views serving as the "Single Version of Truth.
@@ -389,4 +389,5 @@ I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI rep
 🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) 📄 [View PDF Dashboard](Visualization/Tableau/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
 
 ---
+
 
