@@ -330,7 +330,9 @@ High-performance reporting views serving as the "Single Version of Truth.
 # Phase III: Data Visualization
 
 ## **Tableau Dashboard Development**
-Professional design lifecycle followed: **Analyze Requirements → Build Data Source → Build Charts → Build Dashboards.**
+Professional design lifecycle followed:
+
+**Analyze Requirements → Build Data Source → Build Charts → Build Dashboards.**
 
 * **💰 Sales Dashboard:** Financial performance, YoY comparisons, Max/Min indicators, and Weekly Trends.
 * **👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
@@ -359,6 +361,7 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 * **Strategy:** User Story Mapping.
 * **Documentation:** Data Cataloging and Logic Mapping.
 ---
+
 
 
 
