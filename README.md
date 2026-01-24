@@ -390,10 +390,10 @@ I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI rep
 
 ---
 
-# Phase IV: Key Insights & Business Recommendations 🧠 ⚡
+# Phase IV: Key Insights & Business Recommendations ⚡
 
 ## Objective
-This phase transforms the analytical findings into **actionable business insights** that guide strategy, operations, and decision-making.
+🏁 This phase transforms the analytical findings into **actionable business insights** that guide strategy, operations, and decision-making.
 
 ---
 
@@ -426,6 +426,7 @@ This phase transforms the analytical findings into **actionable business insight
 ---
 
 📑 [FULL Detailed Report with Insights and Recommendations](Final_Insights_Recommendations.md)
+
 
 
 
