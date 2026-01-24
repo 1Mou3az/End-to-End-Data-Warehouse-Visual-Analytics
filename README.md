@@ -1,4 +1,4 @@
-<h1 align="center">Full-Cycle End-to-End Data Engineering & Analytics</h1>
+<h1 align="center">💻End-to-End Data Engineering & Analytics</h1>
 
 ---
 
@@ -389,5 +389,6 @@ I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI rep
 🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) 📄 [View PDF Dashboard](Visualization/Tableau/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
 
 ---
+
 
 
