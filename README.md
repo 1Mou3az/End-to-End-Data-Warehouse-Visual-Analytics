@@ -336,12 +336,10 @@ Professional design lifecycle followed:
   <img src="Visualization/design lifecycle.png" alt="Design" width="700"/>
 </p>
 
-**💰 Sales Dashboard:** Financial performance, YoY comparisons, Max/Min indicators, and Weekly Trends.
-**👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
-
 ## 📊 Project Overview
-## Developed a comprehensive Business Intelligence solution in Tableau to analyze sales performance, customer distribution, and product profitability. The project focuses on **Year-over-Year (YoY) comparisons**, enabling stakeholders to identify trends, outliers, and high-value customer segments through a highly interactive UI.
----
+
+Developed a comprehensive Business Intelligence solution in Tableau to analyze sales performance, customer distribution, and product profitability. The project focuses on **Year-over-Year (YoY) comparisons**, enabling stakeholders to identify trends, outliers, and high-value customer segments through a highly interactive UI.
+
 ## 🛠️ Technical Implementation & Calculated Fields
 
 ### 1. Dynamic Time-Series Logic (YoY)
@@ -371,9 +369,13 @@ I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI rep
 * **Custom Tooltip Visualizations**: Designed advanced tooltips that show a mini-report when hovering over data points, displaying the exact $ variance and % difference between 2012 and 2013.
 * **Collapsible Filter Menu**: Utilized layout containers and "Show/Hide" button logic to create a clean "Filters" sidebar (Category, Subcategory, Product Line, and Location).
 * **Global Parameters**: Integrated a `Select Year` parameter that globally updates all YoY calculations across multiple dashboard tabs (Sales, Customers, and Products).
----
+
+**💰 Sales Dashboard:** Financial performance, YoY comparisons, Max/Min indicators, and Weekly Trends.
+**👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
 
 ###  Live Interactive Dashboard 📊
-🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) 📄 [View PDF Dashboard](Visualization/Tableau/Sales & Customers & Products Dashboard.pdf)
+🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) 📄 [View PDF Dashboard](Visualization/Tableau/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
+
 ---
+
 
