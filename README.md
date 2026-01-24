@@ -94,7 +94,7 @@ It ensures a clean setup for the ETL process by dropping any existing database a
 
 ---
 
-## C. Layer Construction & ETL Implementation
+## C. Layer Construction & ETL Implementation 🔄
 
 The data pipeline is implemented in three clearly defined stages.
 <p align="center">
@@ -120,7 +120,7 @@ Tables are created in the Bronze schema with suitable column names and data type
 - <p> See <a href="scripts/2.bronze/1.Building/ddl_bronze.sql">ddl_bronze.sql</a></p>
 
 
-#### Extraction & Loading Strategy
+#### Extraction & Loading Strategy ⬇️💾
 For the Bronze Layer, we adopt the following methods:
 
 - **Extraction Method: Full type with Pull Method and File Parsing technique**
@@ -149,14 +149,14 @@ The **data insertion logic for populating Bronze Layer tables** uses stored proc
 The tables are initially created to mirror the bronze layer, after which transformations are applied to evaluate and validate the required changes.
 - <p> See <a href="scripts/3.silver/1.Building/ddl_silver.sql">ddl_silver.sql</a></p>
 
-**Prior to**🧬the transformation phase, cross-source integration is designed to define how tables will relate to one another; however, no joins or integrations are applied at this stage.
+**Prior to** 🧬 the transformation phase, cross-source integration is designed to define how tables will relate to one another; however, no joins or integrations are applied at this stage.
 
  #### Transformation ⚙️
   - Introduction of technical metadata
   - Data Normalization and standardization
   - Data Enrichment
   - Drived Columns
-  - **Data Cleansing:**
+  - **Data Cleansing:** 🧹
       - Remove Duplicates
       - Handling Unwanted Spaces
       - Handling Invalid Vlaues
@@ -179,7 +179,7 @@ The data types of certain columns are **modified** as required upon completion o
 The **data insertion logic for populating Silver Layer tables** uses stored procedures to ensure consistent, efficient, and reusable full data loads.
 - <p> See <a href="scripts/3.silver/2.Cleaning/proc_load_silver.sql">proc_load_silver.sql</a></p>
 
-#### Data Quality Checks
+#### Data Quality Checks 🔎
 * Data quality validations are performed after the Silver layer is created
 * Checks all applied modifications to ensure they were implemented correctly.
 * Quality check scripts can be found here:
@@ -219,7 +219,7 @@ The **data insertion logic for populating Silver Layer tables** uses stored proc
   - <p> See <a href="scripts/4.gold/1.Prepairing/1.Building/ddl_gold.sql">ddl_gold.sql</a></p>
 
 
-#### Data Quality Checks
+#### Data Quality Checks ✅
 * Data quality validations are performed after the Gold layer is created
 * Checks include referential integrity, duplicate detection, and model consistency
 * Quality check scripts can be found here:
@@ -389,6 +389,7 @@ I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI rep
 🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) 📄 [View PDF Dashboard](Visualization/Tableau/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
 
 ---
+
 
 
 
