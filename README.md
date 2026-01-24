@@ -1,10 +1,10 @@
-<h1 align="center">📊 Full-Cycle End-to-End Data Engineering & Analytics</h1>
+<h1 align="center">Full-Cycle End-to-End Data Engineering & Analytics</h1>
 
 ---
 
 # Phase I: Data Warehouse Engineering
 
-##🏗️ A. Data Architecture Design & Strategy
+## A.🏗️ Data Architecture Design & Strategy
 ### Data Management Approach
 - A **Data Warehouse (DWH)**–centric approach is adopted
 - Optimized for:
@@ -151,7 +151,7 @@ The tables are initially created to mirror the bronze layer, after which transfo
 
 **Prior to**🧬the transformation phase, cross-source integration is designed to define how tables will relate to one another; however, no joins or integrations are applied at this stage.
 
- ####⚙️Transformation
+ #### Transformation ⚙️
   - Introduction of technical metadata
   - Data Normalization and standardization
   - Data Enrichment
@@ -295,7 +295,7 @@ The Gold Layer is the business-level data representation, structured to support 
 
 # Phase II: Exploratory Data Analysis (EDA) And Advanced Data Analytics
 
-##📉Comprehensive Data Analytics Process
+## Comprehensive Data Analytics Process📉
 The project transitions from engineering to insights through a two-phase analytical roadmap.
 
 ### **Exploratory Data Analysis (EDA)**
@@ -335,7 +335,7 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 * **💰 Sales Dashboard:** Financial performance, YoY comparisons, Max/Min indicators, and Weekly Trends.
 * **👥 Customer Dashboard:** Behavioral segmentation, Executive KPIs, and VIP Customer Analysis.
 
-### 📊 Live Interactive Dashboard
+###  Live Interactive Dashboard 📊
 🔗 [View on Tableau Public](https://public.tableau.com/views/SalesCustomersProductsDashboard/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 📄 [View PDF Dashboard](Visualization/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
@@ -359,6 +359,7 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 * **Strategy:** User Story Mapping.
 * **Documentation:** Data Cataloging and Logic Mapping.
 ---
+
 
 
 
