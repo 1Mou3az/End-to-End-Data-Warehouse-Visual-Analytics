@@ -4,7 +4,7 @@
 
 # Phase I: Data Warehouse Engineering
 
-## A. Data Architecture Design & Strategy
+##🏗️ A. Data Architecture Design & Strategy
 ### Data Management Approach
 - A **Data Warehouse (DWH)**–centric approach is adopted
 - Optimized for:
@@ -15,19 +15,19 @@
 ### Layers Approach
 - A **Medallion Architecture**– approach is adopted
 - This multi-layer approach provides a clear roadmap for data refinement
-- **Bronze Layer (Raw)**
+- **🥉Bronze Layer (Raw)**
   - Ingests data in its original format
   - Preserves full traceability to source systems
   - Serves as the immutable system of record
 
-- **Silver Layer (Transformed)**
+- **🥈Silver Layer (Transformed)**
   - Performs data transformation, cleansing
   - Integrates multiple data sources
   - Prepares the data for future analysis, ensuring it is cleaned and consistent
 
 Prepares the data for analytics and downstream processing, ensuring it is structured, consistent, and ready for use
 
-- **Gold Layer (Curated)**
+- **🥇Gold Layer (Curated)**
   - Business-ready, analytics-optimized datasets
   - Designed for dashboards, BI tools, and reporting
   - Implements dimensional models (facts and dimensions)
@@ -149,9 +149,9 @@ The **data insertion logic for populating Bronze Layer tables** uses stored proc
 The tables are initially created to mirror the bronze layer, after which transformations are applied to evaluate and validate the required changes.
 - <p> See <a href="scripts/3.silver/1.Building/ddl_silver.sql">ddl_silver.sql</a></p>
 
-**Prior to** the transformation phase, cross-source integration is designed to define how tables will relate to one another; however, no joins or integrations are applied at this stage.
+**Prior to**🧬the transformation phase, cross-source integration is designed to define how tables will relate to one another; however, no joins or integrations are applied at this stage.
 
- #### Transformation
+ ####⚙️Transformation
   - Introduction of technical metadata
   - Data Normalization and standardization
   - Data Enrichment
@@ -237,7 +237,7 @@ The **data insertion logic for populating Silver Layer tables** uses stored proc
 The Gold Layer is the business-level data representation, structured to support analytical and reporting use cases. It consists of **dimension tables** and **fact tables** for specific business metrics.
 
 ---
-#### 1. **gold.dim_customers**
+#### 1. **🔹gold.dim_customers**
 - **Purpose:** Stores customer details enriched with demographic and geographic data.
 - **Columns:**
 
@@ -256,7 +256,7 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-#### 2. **gold.dim_products**
+#### 2. **🔹gold.dim_products**
 - **Purpose:** Provides information about the products and their attributes.
 - **Columns:**
 
@@ -276,7 +276,7 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-#### 3. **gold.fact_sales**
+#### 3. **🔹gold.fact_sales**
 - **Purpose:** Stores transactional sales data for analytical purposes.
 - **Columns:**
 
@@ -295,7 +295,7 @@ The Gold Layer is the business-level data representation, structured to support 
 
 # Phase II: Exploratory Data Analysis (EDA) And Advanced Data Analytics
 
-## Comprehensive Data Analytics Process
+##📉Comprehensive Data Analytics Process
 The project transitions from engineering to insights through a two-phase analytical roadmap.
 
 ### **Exploratory Data Analysis (EDA)**
@@ -313,7 +313,7 @@ The project transitions from engineering to insights through a two-phase analyti
 10. **Part-to-Whole (Proportional):** Analyzing category contributions to the total business.
 11. **Data Segmentation:** Clustering data for targeted marketing and operational focus.
 
-### **SQL Reporting Layer**
+### **🗄️SQL Reporting Layer**
 Transforming storage data into a high-level analytical suite via SQL layers.
 
 High-performance reporting views serving as the "Single Version of Truth.
@@ -341,7 +341,7 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 📄 [View PDF Dashboard](Visualization/Sales%20&%20Customers%20&%20Products%20Dashboard.pdf)
 ---
 
-## 🛠️ Tech Stack & Technical Proficiencies
+# 🛠️ Tech Stack & Technical Proficiencies
 
 ### **Database Engineering (SQL Server)**
 * **Architecture:** Medallion Framework (Bronze, Silver, Gold).
@@ -359,6 +359,7 @@ Professional design lifecycle followed: **Analyze Requirements → Build Data So
 * **Strategy:** User Story Mapping.
 * **Documentation:** Data Cataloging and Logic Mapping.
 ---
+
 
 
 
