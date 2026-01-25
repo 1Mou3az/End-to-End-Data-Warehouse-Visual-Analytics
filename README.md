@@ -216,14 +216,14 @@ The **data insertion logic for populating Silver Layer tables** uses stored proc
 * The Gold layer is created using SQL view definitions
 * All transformations and business logic are implemented during view creation
 * View creation scripts can be found here:
-  - <p> See <a href="scripts/4.gold/1.Prepairing/1.Building/ddl_gold.sql">ddl_gold.sql</a></p>
+  - <p> See <a href="scripts/4.gold/1.Building/ddl_gold.sql">ddl_gold.sql</a></p>
 
 
 #### Data Quality Checks ✅
 * Data quality validations are performed after the Gold layer is created
 * Checks include referential integrity, duplicate detection, and model consistency
 * Quality check scripts can be found here:
-  - <p> See <a href="scripts/4.gold/1.Prepairing/2.Testing/quality_checks_gold.sql">quality_checks_gold.sql</a></p>
+  - <p> See <a href="scripts/4.gold/2.Testing/quality_checks_gold.sql">quality_checks_gold.sql</a></p>
 
 
 ## Usage
@@ -426,6 +426,7 @@ I utilized **FIXED LODs** to manage data granularity and ensure accurate KPI rep
 ---
 
 📑 [FULL Detailed Report with Insights and Recommendations](Final_Insights_Recommendations.md)
+
 
 
 
