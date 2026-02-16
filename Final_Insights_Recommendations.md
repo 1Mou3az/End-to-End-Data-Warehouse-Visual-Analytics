@@ -57,30 +57,30 @@
 
 ### 3.1 Market Rankings (By Strategic Value)
 
-**🥇 France - The Crown Jewel**
+**France - The Crown Jewel**
 - 2013: 1,700 customers | 2014: 66 customers (-96%)
 - Highest customer value ever: $10,865 per VIP
 - 10 customers spending $9,000+ each
 - Repeat purchase rate: 1.25 orders/customer
 
-**🥈 Canada - Hidden Success Story**
+**Canada - Hidden Success Story**
 - Highest customer loyalty: 1.93 orders/customer
 - Only market with repeat purchasers still buying in Jan 2014
 - Supply chain more diversified
 
-**🥉 Australia - The Stable Base**
+**Australia - The Stable Base**
 - Largest market by volume: 3,500 customers (2013)
 - Highest avg. product price: $239
 - Good loyalty: 1.31 orders/customer
 - Collapsed 96% by Jan 2014
 
-**⚠️ United States - Underperforming Giant**
+**United States - Underperforming Giant**
 - 6,900 customers (2013)
 - Weakest loyalty: 1.05 orders/customer
 - Average customer value: $2,355
 - Most dependent on volume → most devastated
 
-**⚠️ Germany & UK - Moderate Performers**
+**Germany & UK - Moderate Performers**
 - Germany: High VIP value ($4,985) but lower volume
 - UK: Growing steadily (+128% in 2012) but smaller scale
 - Both hit hard by supply crisis
@@ -100,10 +100,10 @@
 4. Customer value crashed: $938 → $55/order
 
 **Root Causes**
-- ❌ Single supplier dependency
-- ❌ No emergency backup inventory
-- ❌ Poor capital management
-- ❌ Weak supplier relationships
+- Single supplier dependency
+- No emergency backup inventory
+- Poor capital management
+- Weak supplier relationships
 
 ---
 
@@ -237,3 +237,4 @@
 - Diversify suppliers
 - Create predictable, recurring revenue
 - Build defensible market position
+
